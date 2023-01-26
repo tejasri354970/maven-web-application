@@ -12,7 +12,7 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
+		<name>Sudheer Kumsr Technologies</name>
 		<url>http://mithuntechnologies.com/</url>
 	</organization>
 
@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://18.138.81.149:9000/</sonar.host.url>
-		<sonar.login>admin</sonar.login>
-		<sonar.password>passw0rd</sonar.password> 
+		<sonar.host.url>http://3.109.2.77:9000</sonar.host.url>
+		<sonar.login>squ_8cbf786946c9c1e39450611e2d41a68595e7e76e</sonar.login>
+		
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
+	      <url>http://13.233.113.191:8081/repository/mav-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
+	      <url>http://13.233.113.191:8081/repository/Maven-snap/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
